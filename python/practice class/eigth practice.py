@@ -74,4 +74,3 @@ print(i)
 l = [x for x in range(1,11)]
 ll = [x for x in l if x % 2 == 0]
 print(ll)
-
