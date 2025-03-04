@@ -54,4 +54,24 @@ print(student_mark)
 
 #list Comprehension/
 #Example - 1/
+l = [7,8,43,46,22,65,785,432]
+print(l)
+dl = [x for x in l]
+dl.sort()
+print(dl)
+
+#Example - 2/
+dl = [x*2 for x in l]
+print(dl)
+
+#Example - 3 indexing in list comprehension/
+name = ["keshav","pramod","dilip","shiva"]
+
+i = [i[1] for i in name]
+print(i)
+
+#Example - 4 even number printing/
+l = [x for x in range(1,11)]
+ll = [x for x in l if x % 2 == 0]
+print(ll)
 
